@@ -46,3 +46,12 @@ E, por fim, rode o projeto:
 
 
 Pronto! Quaisquer dúvidas, críticas ou comentários estou à disposição!
+
+
+##################
+MysQL
+Pass: oqHADet&0q@t3nUqIhyw3kARYf4k
+
+
+COMAND
+docker run -d -p 3306:3306 -e MYSQL_ROOT_PASSWORD=admin -e MYSQL_DATABASE=agenda-petshop -e MYSQL_USER=root -e MYSQL_PASSWORD=admin mysql/mysql-server

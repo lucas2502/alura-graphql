@@ -1,0 +1,12 @@
+version: "3.3"
+services:
+  db:
+    image: mysql:5.7.19
+    container_name: meu_sql
+    environment:
+      MYSQL_ROOT_PASSWORD: admin
+      MYSQL_DATABASE: agenda-petshop
+      MYSQL_USER: root
+    volumes:
+      - /root/Desenvolvimento/alura/graphQL:/var/lib/mysql
+
